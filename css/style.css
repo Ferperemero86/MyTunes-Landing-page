@@ -9,6 +9,68 @@ body {
 }
 
 .hide-on-small {
-    display: none;
+    display: block;
+}
+@media screen and (max-width: 580px) {
+    .hide-on-small {
+        display: none;
+    }
+}
+
+/***Showcase***/
+
+#showcase {
+    margin: 0;
+    padding: 0;
+    background: url("../img/woman-bed.jpg") no-repeat center/cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+@media screen and (max-width: 580px) {
+    #showcase {
+        height: 50vh;
+    }
+}
+
+#showcase .container {
+    margin-top: 25vh;
+}
+@media screen and (max-width: 580px) {
+    #showcase .container {
+        margin-top: 15vh;
+    }
+}
+
+#showcase h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+@media screen and (max-width: 580px) {
+    #showcase h1 {
+        font-size: 3rem;
+    }
+}
+
+#showcase h2 {
+    font-size: 2rem;
+}
+@media screen and (max-width: 580px) {
+    #showcase h2 {
+        font-size: 1.5rem;
+    }
+}
+
+/***Utility Classes***/
+.container {
+    max-width: 73.75rem;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 3rem;
+}
+
+.lead {
+    font-size: 1.3rem;
 }
 

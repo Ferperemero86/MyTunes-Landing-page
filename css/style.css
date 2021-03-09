@@ -27,26 +27,40 @@ a {
     }
 }
 
-/*Button*/
+.bg-light {
+    background-color: #f4f4f4;
+    color: #333;
+}
 
+/*Button*/
 .btn {
     text-decoration: none;
     display: inline-block;
     font-size: 1rem;
     padding: 1rem;
-}
-
-.btn-primary {
-    background-color: #ff0000;
-    color: #000;
-    font-weight: bolder;
     transition: background-color 1s ease;
     transition: color 1s ease;
 }
 
+.btn-primary {
+    background-color: #ff0000;
+    color: #fff;
+    font-weight: bolder;
+}
+
 .btn-primary:hover {
     background-color: #d3071b;
+    color: #222;
+}
+
+.btn-secondary {
+    background-color: #103063;
     color: #fff;
+}
+
+.btn-secondary:hover {
+    background-color: #143f85;
+    color: #222;
 }
 
 /*Section*/
@@ -110,6 +124,7 @@ a {
 }
 
 /***Utility Classes***/
+
 .container {
     max-width: 73.75rem;
     text-align: center;
@@ -130,6 +145,10 @@ a {
 }
 
 
-/***Music***/
+/***Video**/
+
+.tablet-muckup {
+    margin-top: 4rem;
+}
 
 

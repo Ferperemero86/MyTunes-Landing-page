@@ -1,5 +1,9 @@
 /***Global Styles***/
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'PT Sans', sans-serif;
     background-color: #252529;
@@ -34,6 +38,10 @@ a {
 
 .text-secondary {
     color: #103063;
+}
+
+ul {
+    list-style: none;
 }
 
 /*Button*/
@@ -171,6 +179,7 @@ a {
         display: grid;
         grid-gap: 1.25rem;
         grid-template-columns: repeat(2, 1fr);
+        text-align: left;;
     }
 }
 
@@ -188,6 +197,19 @@ a {
     .gift-card-img {
         max-width: 70%;
     }
+}
+
+/***Footer***/
+
+footer {
+    padding-bottom: 2rem;
+}
+
+.footer-cols {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 2rem 0;
+    text-align: left;
 }
 
 
